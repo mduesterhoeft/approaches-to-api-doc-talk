@@ -9,12 +9,14 @@ buildscript {
 	}
 	dependencies {
 		classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
+		classpath "org.asciidoctor:asciidoctor-gradle-plugin:1.5.3"
 	}
 }
 
 apply plugin: 'java'
 apply plugin: 'org.springframework.boot'
 apply plugin: 'io.spring.dependency-management'
+apply plugin: 'org.asciidoctor.convert'
 
 sourceCompatibility = 1.8
 
@@ -41,8 +43,19 @@ dependencies {
 	testCompile('org.springframework.restdocs:spring-restdocs-mockmvc')
 
 	testCompile('com.google.guava:guava:23.0')
+
+	asciidoctor "org.springframework.restdocs:spring-restdocs-asciidoctor"
 }
 
 tasks.withType(Test.class) {
 	useJUnitPlatform()
+}
+
+test {
+	outputs.dir snippetsDir
+}
+
+asciidoctor {
+	inputs.dir snippetsDir
+	dependsOn test
 }

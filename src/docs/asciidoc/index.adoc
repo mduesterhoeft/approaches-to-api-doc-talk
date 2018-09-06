@@ -1,0 +1,13 @@
+= Spring REST Docs Sample API
+:doctype: book
+:toc: left
+:toclevels: 4
+:source-highlighter: highlightjs
+:operation-http-request-title: Example request
+:operation-http-response-title: Example response
+
+== Carts
+
+=== Create a cart
+
+operation::carts-create[snippets='http-request,http-response']
