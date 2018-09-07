@@ -1,7 +1,5 @@
 package com.epages.restdocs.openapi.sample;
 
-import lombok.SneakyThrows;
-import lombok.experimental.FieldDefaults;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.springframework.boot.test.autoconfigure.restdocs.AutoConfigureRestDocs;
@@ -9,8 +7,13 @@ import org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMock
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit.jupiter.SpringExtension;
 
+import lombok.SneakyThrows;
+import lombok.experimental.FieldDefaults;
+
 import static lombok.AccessLevel.PRIVATE;
-import static org.hamcrest.Matchers.*;
+import static org.hamcrest.Matchers.hasSize;
+import static org.hamcrest.Matchers.is;
+import static org.hamcrest.Matchers.notNullValue;
 import static org.springframework.data.rest.webmvc.RestMediaTypes.HAL_JSON;
 import static org.springframework.data.rest.webmvc.RestMediaTypes.TEXT_URI_LIST;
 import static org.springframework.http.HttpHeaders.LOCATION;
