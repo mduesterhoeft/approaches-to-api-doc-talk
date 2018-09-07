@@ -52,7 +52,6 @@ tasks.withType(Test.class) {
 
 openapi {
 	host = 'localhost:8080'
-	basePath = '/api'
 	title = 'My API'
 	version = '0.1.0'
 	format = 'yaml'
