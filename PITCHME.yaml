@@ -1,0 +1,7 @@
+theme : white
+theme-override : presentation/pitchme.css
+highlight : atom-one-light
+logo : presentation/epages-colored.png
+logo-position : top-right
+transition : slide
+published : true
