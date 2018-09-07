@@ -39,6 +39,7 @@ dependencies {
 
 	testCompile('org.springframework.boot:spring-boot-starter-test')
 	testCompile('org.springframework.restdocs:spring-restdocs-mockmvc')
+	testCompile('com.atlassian.oai:swagger-request-validator-mockmvc:2.0.0-rc3')
 
 	testCompile('com.google.guava:guava:23.0')
 }
