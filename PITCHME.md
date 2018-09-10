@@ -49,7 +49,7 @@ The different approaches are shown in the contexts of a spring boot 🍃 applica
 
 ---?image=presentation/demo.jpeg
 
-## @fa[terminal] Introspection Demo
+## @fa[terminal] Introspection Demo <!-- .element: style="color: white;" -->
 
 ---
 @snap[north message-box]
