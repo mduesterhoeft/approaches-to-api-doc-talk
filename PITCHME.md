@@ -47,14 +47,13 @@ The different approaches are shown in the contexts of a spring boot 🍃 applica
 - [SpringFox](https://springfox.github.io/springfox/) applies the usual _Swagger_ approach
 - generates OpenAPI specification using code introspection
 
----
-
 ---?color=#FFCD53
 
 ## Introspection
 
 ### @fa[code]
 
+---
 @snap[north message-box]
 <h2>Introspection</h2>
 @snapend
@@ -98,7 +97,7 @@ The different approaches are shown in the contexts of a spring boot 🍃 applica
 
 ---?color=#0073BF
 
-## Testdriven
+## Test-driven
 
 ### @fa[code]
 
