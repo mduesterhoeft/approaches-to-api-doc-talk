@@ -30,6 +30,15 @@ _Use code introspection to get information about the API_
 
 ---
 
+## Introspection - SpringFox
+
+> Automated JSON API documentation for APIs built with Spring
+
+- [SpringFox](https://springfox.github.io/springfox/) applies the usual _Swagger_ approach
+- generates OpenAPI specification using Code introspection
+
+---
+
 @snap[north message-box]
 <h2>Introspection</h2>
 @snapend
@@ -53,7 +62,7 @@ _Use code introspection to get information about the API_
 @ul[](false)
 - intrusive
 - pollute code with `@`
-- model might be != API
+- model often is != API
 @ulend
 @snapend
 
@@ -61,10 +70,18 @@ _Use code introspection to get information about the API_
 
 ## Test-driven
 
-_Generate API reference in the code that is testing API endpoints_
+_Generate API reference from API integration tests_
 
 ---
 
+## Test-driven - Spring REST docs
+
+> Document RESTful services by combining hand-written documentation with auto-generated snippets produced with Spring MVC Test.
+
+- [Spring REST Docs](https://spring.io/projects/spring-restdocs)
+- [restdocs-openapi](https://github.com/ePages-de/restdocs-openapi)
+
+---
 @snap[north message-box]
 <h2>Test-driven</h2>
 @snapend
@@ -94,17 +111,23 @@ _Generate API reference in the code that is testing API endpoints_
 
 ## Design First
 
-_Design you API first using an **API specification**. Then **verify** that your API complies with the specification **in your test code**._
+_Design your API first using an **API specification**. Then **verify** that your API complies with the specification **in your test code**._
 
 ---
 
 ## Design First - Support the actual work-flow
 
-![design](presentation/design.gif)
-
 API design usually happens **before** starting to implement.
 
 So why not **starting** with the [API specification](https://next.stoplight.io/mduesterhoeft/rnd-day/)
+
+---
+
+## Design First - Swagger Request Validator
+
+> A Java library for validating HTTP request/responses against an OpenAPI specification.
+
+- [Swagger Request Validator](https://bitbucket.org/atlassian/swagger-request-validator)
 
 ---
 
