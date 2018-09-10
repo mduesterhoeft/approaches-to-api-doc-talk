@@ -22,7 +22,7 @@ Mathias Düsterhöft
 
 The different approaches are shown in the contexts of a spring boot 🍃 application. 
 
-See github repo - @fa[github][mduesterhoeft/approaches-to-api-doc-talk](https://github.com/mduesterhoeft/approaches-to-api-doc-talk)
+@fa[github][mduesterhoeft/approaches-to-api-doc-talk](https://github.com/mduesterhoeft/approaches-to-api-doc-talk)
 
 ---
 
