@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
-git reset --hard origin/master
+git reset --hard HEAD
 git checkout open-api-request-validator-start
 ./gradlew clean
