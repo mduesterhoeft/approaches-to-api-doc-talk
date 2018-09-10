@@ -51,7 +51,7 @@ The different approaches are shown in the contexts of a spring boot 🍃 applica
 
 ## Introspection
 
-### @fa[code]
+### @fa[code] Demo @fa[code]
 
 ---
 @snap[north message-box]
