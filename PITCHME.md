@@ -47,11 +47,9 @@ The different approaches are shown in the contexts of a spring boot 🍃 applica
 - [SpringFox](https://springfox.github.io/springfox/) applies the usual _Swagger_ approach
 - generates OpenAPI specification using code introspection
 
----?color=#FFCD53
+---?image=presentation/demo.jpeg
 
-## Introspection
-
-### @fa[code] Demo @fa[code]
+## @fa[code] Introspection Demo @fa[code]
 
 ---
 @snap[north message-box]
