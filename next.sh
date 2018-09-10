@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
-git reset --hard origin/master
+git reset --hard HEAD
 git checkout openapi-documented
 ./gradlew clean
