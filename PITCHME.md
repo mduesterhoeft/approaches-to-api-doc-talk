@@ -49,7 +49,7 @@ The different approaches are shown in the contexts of a spring boot 🍃 applica
 
 ---?image=presentation/demo.jpeg
 
-## @fa[code] Introspection Demo @fa[code]
+## @fa[terminal] Introspection Demo
 
 ---
 @snap[north message-box]
