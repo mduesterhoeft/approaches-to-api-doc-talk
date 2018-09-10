@@ -108,3 +108,36 @@ html:-moz-full-screen-ancestor {
 .thumb {
     padding-top: 100px !important;
 }
+
+.span-5  { width:  5% }
+.span-10 { width: 10% }
+.span-15 { width: 15% }
+.span-20 { width: 20% }
+.span-25 { width: 25% }
+.span-30 { width: 30% }
+.span-35 { width: 35% }
+.span-40 { width: 40% }
+.span-45 { width: 45% }
+.span-50 { width: 50% }
+.span-55 { width: 55% }
+.span-60 { width: 60% }
+.span-65 { width: 65% }
+.span-70 { width: 70% }
+.span-75 { width: 75% }
+.span-80 { width: 80% }
+.span-85 { width: 85% }
+.span-90 { width: 90% }
+.span-95 { width: 95% }
+.span-100 { width: 100% }
+
+.headline {
+  font-size: 2.0em !important;
+  font-weight: bold !important;
+}
+
+.text-white  { color: #FFFFFF !important; }
+
+.byline {
+  letter-spacing: 0.1em;
+  font-size: 0.6em !important;
+}

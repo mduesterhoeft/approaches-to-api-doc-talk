@@ -1,18 +1,28 @@
-# Approaches to create a REST API reference
+---?image=presentation/title.png&size=contain%&position=left
+
+@snap[east headline text-white span-70]
+Approaches to REST API documentation
+@snapend
+
+@snap[south-east byline text-white] 
+Mathias Düsterhöft
+@snapend
 
 ---?color=#00A551
 
-### For public APIs there is no way around an API reference
+### _For public APIs there is no way around an API reference_
 
 ---?color=#0073BF
 
-### API reference and application code need to be in _sync_
+### _API reference and application code need to be in sync_
 
 ---
 
 ## Considered Approaches
 
-The different approaches are shown in the contexts of a spring boot application. See [github repository](https://github.com/mduesterhoeft/approaches-to-api-doc-talk).
+The different approaches are shown in the contexts of a spring boot 🍃 application. 
+
+See github repo - [@fa[github]](https://github.com/mduesterhoeft/approaches-to-api-doc-talk)
 
 @ul
 
@@ -22,11 +32,11 @@ The different approaches are shown in the contexts of a spring boot application.
 
 @ulend
 
----?color=#DC1723
+---?color=#FFCD53
 
 ## Introspection
 
-_Use code introspection to get information about the API_
+### _Use code introspection to get information about the API_
 
 ---
 
@@ -35,7 +45,7 @@ _Use code introspection to get information about the API_
 > Automated JSON API documentation for APIs built with Spring
 
 - [SpringFox](https://springfox.github.io/springfox/) applies the usual _Swagger_ approach
-- generates OpenAPI specification using Code introspection
+- generates OpenAPI specification using code introspection
 
 ---
 
@@ -70,7 +80,7 @@ _Use code introspection to get information about the API_
 
 ## Test-driven
 
-_Generate API reference from API integration tests_
+### _Generate API reference from API integration tests_
 
 ---
 
@@ -78,8 +88,7 @@ _Generate API reference from API integration tests_
 
 > Document RESTful services by combining hand-written documentation with auto-generated snippets produced with Spring MVC Test.
 
-- [Spring REST Docs](https://spring.io/projects/spring-restdocs)
-- [restdocs-openapi](https://github.com/ePages-de/restdocs-openapi)
+[Spring REST Docs](https://spring.io/projects/spring-restdocs) @fa[link] [restdocs-openapi](https://github.com/ePages-de/restdocs-openapi)
 
 ---
 @snap[north message-box]
@@ -111,11 +120,15 @@ _Generate API reference from API integration tests_
 
 ## Design First
 
-_Design your API first using an **API specification**. Then **verify** that your API complies with the specification **in your test code**._
+_@fa[pencil] Design your API first using an **API specification**._
+
+_@fa[recycle] Then **verify** that your API complies with the specification **in your test code**._
 
 ---
 
-## Design First - Support the actual work-flow
+## Design First 
+
+### Support the actual work-flow
 
 API design usually happens **before** starting to implement.
 
@@ -123,11 +136,13 @@ So why not **starting** with the [API specification](https://next.stoplight.io/m
 
 ---
 
-## Design First - Swagger Request Validator
+## Design First
+
+### Swagger Request Validator
 
 > A Java library for validating HTTP request/responses against an OpenAPI specification.
 
-- [Swagger Request Validator](https://bitbucket.org/atlassian/swagger-request-validator)
+@fa[link] [Swagger Request Validator](https://bitbucket.org/atlassian/swagger-request-validator)
 
 ---
 
