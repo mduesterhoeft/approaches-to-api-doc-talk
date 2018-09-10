@@ -1,4 +1,6 @@
-# Approaches to create a REST API reference
+[![GitPitch](https://gitpitch.com/assets/badge.svg)](https://gitpitch.com/mduesterhoeft/approaches-to-api-doc-talk/plain)
+
+# Approaches to REST API documentation
 
 This repository accompanies a talk on *Approaches to create an REST API reference*.
 
