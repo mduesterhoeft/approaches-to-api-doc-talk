@@ -18,19 +18,19 @@ Mathias Düsterhöft
 
 ---
 
-## Considered Approaches
+## Example code
 
 The different approaches are shown in the contexts of a spring boot 🍃 application. 
 
-See github repo - @fa[github][https://github.com/mduesterhoeft/approaches-to-api-doc-talk](https://github.com/mduesterhoeft/approaches-to-api-doc-talk)
+See github repo - @fa[github][mduesterhoeft/approaches-to-api-doc-talk](https://github.com/mduesterhoeft/approaches-to-api-doc-talk)
 
-@ul
+---
+
+## Considered approaches
 
 - introspection
 - test-driven
 - design first
-
-@ulend
 
 ---?color=#FFCD53
 
