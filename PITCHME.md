@@ -84,7 +84,7 @@ See github repo - [@fa[github]](https://github.com/mduesterhoeft/approaches-to-a
 
 ---
 
-## Test-driven - Spring REST docs
+## Test-driven - Spring REST Docs
 
 > Document RESTful services by combining hand-written documentation with auto-generated snippets produced with Spring MVC Test.
 
