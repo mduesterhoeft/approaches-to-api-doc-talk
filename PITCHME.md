@@ -49,7 +49,7 @@ The different approaches are shown in the contexts of a spring boot 🍃 applica
 
 ---?image=presentation/demo.jpeg
 
-<h2 style="color: white;">@fa[terminal] Introspection Demo </h2>
+<h2 style="color: white;">@fa[terminal] SpringFox Demo </h2>
 
 ---
 @snap[north message-box]
@@ -93,11 +93,9 @@ The different approaches are shown in the contexts of a spring boot 🍃 applica
 
 [Spring REST Docs](https://spring.io/projects/spring-restdocs) @fa[link] [restdocs-openapi](https://github.com/ePages-de/restdocs-openapi)
 
----?color=#0073BF
+---?image=presentation/demo.jpeg
 
-## Test-driven
-
-### @fa[code]
+<h2 style="color: white;">@fa[terminal] Spring REST Docs Demo </h2>
 
 ---
 @snap[north message-box]
@@ -152,6 +150,10 @@ So why not **starting** with the [API specification](https://next.stoplight.io/m
 > A Java library for validating HTTP request/responses against an OpenAPI specification.
 
 @fa[link] [Swagger Request Validator](https://bitbucket.org/atlassian/swagger-request-validator)
+
+---?image=presentation/demo.jpeg
+
+<h2 style="color: white;">@fa[terminal] Swagger Request Validator Demo </h2>
 
 ---
 
