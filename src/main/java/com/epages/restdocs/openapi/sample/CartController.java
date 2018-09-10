@@ -1,14 +1,20 @@
 package com.epages.restdocs.openapi.sample;
 
+import java.util.Optional;
+
 import com.epages.restdocs.openapi.sample.CartResourceResourceAssembler.CartResource;
-import lombok.RequiredArgsConstructor;
+
 import org.springframework.data.rest.webmvc.RepositoryRestController;
 import org.springframework.hateoas.EntityLinks;
 import org.springframework.hateoas.Resources;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.*;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
 
-import java.util.Optional;
+import lombok.RequiredArgsConstructor;
 
 import static org.springframework.data.rest.webmvc.RestMediaTypes.TEXT_URI_LIST_VALUE;
 
@@ -41,7 +47,7 @@ public class CartController {
     }
 
     @PostMapping("/{cartId}/order")
-    public ResponseEntity<CartResource> order(@PathVariable Long cartId) {
+    ResponseEntity<CartResource> order(@PathVariable Long cartId) {
         return cartRepository.findById(cartId)
                 .map(cart -> {
                     cart.setOrdered(true);
