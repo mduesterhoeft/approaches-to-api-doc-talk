@@ -2,7 +2,7 @@
 
 # Approaches to REST API documentation
 
-This repository accompanies a talk on *Approaches to create an REST API reference*.
+This repository accompanies a talk on *Approaches REST API documentation*.
 
 The approaches considered all have one thing in common - they keep a connection between the API reference and the code.
 In other words - they give some guarantees about the API reference and the implementation code being in sync.
